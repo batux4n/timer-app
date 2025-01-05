@@ -16,4 +16,11 @@ This project is a time management application built with React. It includes func
 ## Installation
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/batux4n/timer-app.git
+## Screenshots
+
+Here are some screenshots of the project:
+
+![Counter Screen](./assets/counter.png)
+![Timer Screen](./assets/timer.png)
+![Countdown Screen](./assets/countdown.png)
