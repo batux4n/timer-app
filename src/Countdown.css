@@ -1,0 +1,148 @@
+.column {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  input {
+    width: 50px;
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #0077b6;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.5);
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .timer-display {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #333;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .start-stop-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .start-btn,
+  .stop-btn {
+    width: 150px;  /* Eşit genişlikte yapma */
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .start-btn {
+    background-color: #00b63d !important; 
+    color: white;
+  }
+  
+  .start-btn:hover {
+    background-color: #25973e !important;;
+  }
+  
+  .start-btn:active {
+    transform: scale(0.98);
+  }
+  
+  .stop-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .stop-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .stop-btn:active {
+    transform: scale(0.98);
+  }
+  
+  .reset-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reset-btn {
+    background-color: #f4e861;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .reset-btn:hover {
+    background-color: #e08e4f;
+  }
+  
+  .reset-btn:active {
+    transform: scale(0.98);
+  }
+  
+  /* Responsive Tasarım */
+  @media (max-width: 768px) {
+    .column {
+      padding: 1.5rem;
+    }
+  
+    input {
+      width: 60px;
+      font-size: 1rem;
+    }
+  
+    .timer-display {
+      font-size: 2.5rem;
+    }
+  
+    .start-btn,
+    .stop-btn {
+      width: 120px;  /* Mobilde daha küçük butonlar */
+      font-size: 1rem;
+    }
+  
+    .reset-btn {
+      font-size: 1rem;
+    }
+  }
+  

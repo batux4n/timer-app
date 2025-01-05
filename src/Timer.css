@@ -1,0 +1,121 @@
+.column {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.timer-display {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #333;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+/* Start ve Stop butonları arasındaki düzen */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.start-btn,
+.stop-btn,
+.save-btn,
+.reset-btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.start-btn {
+  background-color: #28a745;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.stop-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.save-btn {
+  background-color: #61cdf4;
+  color: white;
+  border: none;
+  margin-top: 1rem; /* Save Time butonuna üstten boşluk */
+}
+
+.reset-btn {
+  background-color: #f4e861;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem; /* Reset butonuna üstten boşluk */
+}
+
+.start-btn:hover {
+  background-color: #005f8d;
+}
+
+.stop-btn:hover {
+  background-color: #d32f2f;
+}
+
+.save-btn:hover {
+  background-color: #594fe0;
+}
+
+.start-btn:active,
+.stop-btn:active,
+.save-btn:active {
+  transform: scale(0.2);
+}
+
+.reset-btn:hover {
+  background-color: #e08e4f;
+}
+
+.reset-btn:active {
+  transform: scale(0.98);
+}
+
+/* Saved Times */
+.saved-times {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.saved-times ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.saved-times li {
+  margin: 0.5rem 0;
+}
+
+/* Buton div'leri için boşluk eklemek */
+.reset-button,
+.save-button {
+  margin-top: 1rem;
+}
+.column .start-btn {
+  background-color: #28a745;  /* Yeşil renk */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

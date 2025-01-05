@@ -1,0 +1,34 @@
+/* Sayfanın ortalanması */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #feffed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Uygulamalar arasındaki boşluk */
+}
+
+.column {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 350px; /* Sabit genişlik */
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #31aff3;
+  font-weight: 600;
+}
+
+/* Diğer uygulama stilleri (Counter, Timer, Countdown) aynı şekilde kalabilir */
